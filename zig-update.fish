@@ -1,5 +1,6 @@
 ### generates a precompiled zig lang dir in the current dir
-### for different systems and versions, simply change the 
+### for different systems and versions, 
+### simply change the system architecture and zig version after yq on line 12
 
 # if test "$(ls | sed -e "s/zig-lang//"  -e "s/zig-update.fish//")" != ""
 # 	echo dir is dirty 
